@@ -1,0 +1,11 @@
+.contact{
+    height: 100vh;
+        background-image: linear-gradient(rgba(250, 48, 48, 0),rgba(0, 0, 0, 8)),url(contact.jpg);
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+}
+.contact{
+    color: rgb(255, 255, 255);
+}

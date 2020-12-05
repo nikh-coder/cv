@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="logo.jpg" alt="my logo">
+            </div>
+
+            <div class="nav-link" id="nav-link">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                    <a href="home.html" target="blank">
+                        <li> <STRONG> Home</STRONG></li>
+                    </a>
+                    <a href="about.html" target="blank">
+                        <li><strong>About</strong></li>
+                    </a>
+                    <a href="form tutorial.html" target="blank">
+                        <li><strong> Contact Us</strong></li>
+                    </a>
+                    <button type="button" class="btn">LOGIN</button>
+                </ul><br>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </div>
+
+        <div class="banner">
+            <h1>You won't shine <span>unless</span><br> you want</h1>
+            <button type="button">Explore</button>
+
+        </div>
+
+
+    </div>
+    <div class="vertical-bar">
+        <div class="search-icon">
+            <i class="fa fa-th-list"></i>
+            <i class="fa fa-search"></i>
+        </div>
+
+        <div class="social-icon">
+            <a href="https://www.facebook.com" target="blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/search-home?lang=en" target="blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.youtube.com/" target="blank"><i class="fa fa-youtube" ></i></a>
+
+        </div>
+    </div>
+    <div class="notification">
+        <div class="contents">You can do what you want...
+            <div class="notification-img"></div>
+
+
+        </div>
+
+
+    </div>
+
+
+    </div>
+    <script>
+        var show = document.getElementById("nav-link")
+        function showMenu() {
+            show.style.right = "0"
+        }
+        function closeMenu() {
+            show.style.right = "-200px"
+        }
+    </script>
+
+
+
+    <!--Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita sed dolore aliquid eveniet praesentium officiis, incidunt, repellendus distinctio, quia perspiciatis veritatis iste et natus eaque non recusandae ut inventore totam obcaecati numquam. Suscipit debitis voluptatibus fugiat aliquid rem obcaecati, provident optio dignissimos ipsa recusandae, iste  hello kya ad officia voluptas nulla perspiciatis doloribus, dolore distinctio facere eveniet ab nisi veritatis. Deleniti similique earum voluptatem veritatis repudiandae facere consequuntur, quam facilis fuga eius recusandae blanditiis dolor atque dicta excepturi nemo nobis vel, quaerat temporibus asperiores laborum quidem illum. Cumque atque accusamus est minima? Velit harum distinctio excepturi ut cum est repudiandae ipsam rem!-->
+
+    <!--Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit laborum veritatis mollitia natus adipisci assumenda similique modi quis fugiat aliquam ipsum amet fuga consequuntur esse, maiores odio soluta repellendus!
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsum id veniam iusto labore reiciendis, accusamus magnam inventore rerum porro sapiente ipsa nostrum error. Dignissimos excepturi provident rem officia enim!-->
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+
+.hero{
+    height: 100vh;
+        background-image: linear-gradient(rgba(250, 48, 48, 0),rgba(0, 0, 0, 8)),url(about.jpg);
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+
+}
+.hero{
+    color: rgb(255, 0, 0);
+    font-size: 100px;
+    position: absolute;
+}
